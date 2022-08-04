@@ -1,0 +1,257 @@
+body{
+    background-color: #f0f2f5;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-iteration-count:5;
+}
+@keyframes flip{
+    0%{
+        margin-left:50px ;
+    }
+   100%{
+      margin-left: -50px;
+    }
+}
+.face{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:rainbow;
+    animation-duration: 4s;
+    
+}
+.box{
+    margin-left: 15%;
+    width: 80%;
+    background-color: white;
+    height: 540px;
+    animation-name: shake;
+    animation-duration: 15s;
+
+}
+@keyframes shake{
+    0%{
+        margin-left: 40%;
+        opacity: 0.4;
+    }
+    50%{
+        margin-left: -20%;
+        transform: (2);
+    }
+    100%{
+        margin-left: 60%;
+        opacity: 0.8;
+    }
+}
+#telemail{
+    margin-left: 4%;
+    height: 50px;
+    border-radius: 9px;
+    font-size: 20px;
+    width: 90%;
+    border: none;
+    border: 1px solid #dddfe2;
+}
+@keyframes rainbow{
+    0%{
+        color: green;
+        opacity: 0.4;
+     transform: scale(3.0);
+    }
+    
+}
+#log{
+    margin-left: 4%;
+    height: 50px;
+    border-radius: 9px;
+    font-size: 30px;
+    width: 90%;
+    background-color: #1877f2;
+    font-weight: 60px;
+    color: white;
+    border: 1px solid #dddfe2;
+}
+ nav{
+    text-align: center;
+    text-decoration: none;
+
+}
+.a1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first{
+    width: 40%;
+    margin-left: 3%;
+}
+.or{
+    margin-left: 46%;
+    margin-top:-20px ;
+    font-size: 20px;
+    width: 5%;
+}
+.second{
+    width: 40%;
+    margin-left: 57%;
+    margin-top: -33px;
+}
+button{
+    background-color:rgb(77, 192, 77);
+    height: 50px;
+    margin-left: 25%;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    width: 50%;
+    
+}
+button:hover{
+    cursor: pointer;
+    animation-name: click;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes click{
+    100%{
+        background-color:  #1877f2;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:2000px){
+
+body{
+    background-color: #f0f2f5;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-iteration-count:5;
+}
+@keyframes flip{
+    0%{
+        margin-left:50px ;
+    }
+   100%{
+      margin-left: -50px;
+    }
+}
+.face{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:rainbow;
+    animation-duration: 4s;
+    
+}
+.box{
+    margin-left: 25%;
+    width: 50%;
+    background-color: white;
+    height: 540px;
+    animation-name: shake;
+    animation-duration: 15s;
+
+}
+@keyframes shake{
+    0%{
+        margin-left: 40%;
+        opacity: 0.4;
+    }
+    50%{
+        margin-left: -20%;
+        transform: (2);
+    }
+    100%{
+        margin-left: 60%;
+        opacity: 0.8;
+    }
+}
+#telemail{
+    margin-left: 4%;
+    height: 50px;
+    border-radius: 9px;
+    font-size: 20px;
+    width: 90%;
+    border: none;
+    border: 1px solid #dddfe2;
+}
+@keyframes rainbow{
+    0%{
+        color: green;
+        opacity: 0.4;
+     transform: scale(3.0);
+    }
+    
+}
+#log{
+    margin-left: 4%;
+    height: 50px;
+    border-radius: 9px;
+    font-size: 30px;
+    width: 90%;
+    background-color: #1877f2;
+    font-weight: 60px;
+    color: white;
+    border: 1px solid #dddfe2;
+}
+ nav{
+    text-align: center;
+    text-decoration: none;
+
+}
+.a1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first{
+    width: 40%;
+    margin-left: 3%;
+}
+.or{
+    margin-left: 46%;
+    margin-top:-20px ;
+    font-size: 20px;
+    width: 5%;
+}
+.second{
+    width: 40%;
+    margin-left: 57%;
+    margin-top: -33px;
+}
+button{
+    background-color:rgb(77, 192, 77);
+    height: 50px;
+    margin-left: 25%;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    width: 50%;
+    
+}
+button:hover{
+    cursor: pointer;
+    animation-name: click;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes click{
+    100%{
+        background-color:  #1877f2;
+    }
+}
+}
